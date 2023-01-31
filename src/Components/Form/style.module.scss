@@ -1,0 +1,24 @@
+.table {
+    table {
+        width: 500px;
+        text-align: center;
+        border: 1px solid #ddd;
+        
+        thead {
+            background-color: #ddd;
+        }
+        
+        td,
+        th {
+            padding: 10px;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        .default {
+            background-color: #82e9ca;
+        }
+    }
+}

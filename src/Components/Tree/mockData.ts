@@ -4,7 +4,7 @@ export function createTreeMockData(): NodeType[] {
 	return [
 		{
 			key: '1',
-			title: 'شرکت چارگون',
+			title: 'مدیران',
 			users: [],
 			children: [
 				{

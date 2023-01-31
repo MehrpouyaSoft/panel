@@ -1,0 +1,24 @@
+.row {
+    padding: 10px;
+
+    .icon {
+        text-align: left;
+
+        button {
+            background: none;
+            border: none;
+            padding: 0;
+
+            svg {
+                width: 20px;
+                height: 20px;
+                fill: #ffa500;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.content {
+    min-width: 200px;
+}

@@ -2,6 +2,7 @@ export interface UserType {
 	title: string;
 	isDefault: boolean;
 }
+
 export interface NodeType {
 	title: string;
 	users: UserType[];

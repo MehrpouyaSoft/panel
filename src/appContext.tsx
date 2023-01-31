@@ -2,16 +2,16 @@ import React from 'react';
 import { NodeType } from './types';
 
 
-interface AppContext {
-    updateTreeData: (nodes: NodeType[]) => void;
+interface IAppContext {
     treeData: NodeType[];
+    handleContextMenuClick(action: string, node: Object): void;
 }
 
-const defaultAppContext: AppContext = {
+const defaultAppContext: IAppContext = {
     treeData: [],
-    updateTreeData: () => []
+    handleContextMenuClick: () => []
 };
 
-const AppContext = React.createContext<AppContext>(defaultAppContext);
+const AppContext = React.createContext<IAppContext>(defaultAppContext);
 
 export default AppContext;
